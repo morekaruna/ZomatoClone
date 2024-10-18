@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./Images/signupbg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    position: relative;
+    margin-top: 40px;
+    margin-left: 550px;
+    height: 670px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 2px 4px;
+    padding-left: 85px;
+    padding-top: 40px;
+    opacity: 0.8;
+}
+.container .newform h2{
+    color: rgb(138, 240, 43);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    display: flex;
+}
+.container .newform label{
+    color: gray;
+    padding-left: 75px;
+    margin-top: 7px;
+}
+.container .newform input{
+    width: 35%;
+    border-radius: 20px;
+    height: 40px;
+    padding-left: 15px;
+    margin-left: 95px;
+    background-color: rgb(198, 196, 196);
+    margin-top: 6px;
+}
+.container .newform .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    margin-left: 95px;
+    border-radius: 20px;
+    margin-top: 35px;
+    height: 40px;
+}
+.container .newform .btn img{
+    height: 27px;
+    width: 27px;
+}
+.container .newform #pic{
+    height: 500px;
+    width: 600px;
+    margin-top: 10px;
+    margin-left: 600px;
+    position:absolute;
+    float: right;
+}
+

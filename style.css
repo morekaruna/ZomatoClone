@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f9fa; 
+}
+
+.backgroundSection .background img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px; 
+    display: flex;
+    align-items: center; 
+    position: relative;
+}
+.backgroundSection .background .centered{
+    position: absolute;
+    top: 170px;
+    align-items: center;
+    left: 650px;
+    color:rgb(245, 35, 35);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 2000;
+    font-size: xxx-large;
+}
+.backgroundSection .background p{
+    position: absolute;
+    top: 250px;
+    align-items: center;
+    left: 500px;
+    color:whitesmoke;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:xx-large;
+    font-weight: lighter;
+}
+.backgroundSection .background input{
+    position: absolute;
+    top: 300px;
+    align-items: center;
+    left: 480px;
+    color:black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 630px;
+    height: 40px;
+    padding-left: 12px;
+    border-radius: 10px;
+}
+.backgroundSection .background i{
+    position: absolute;
+    top: 300px;
+    align-items: center;
+    left: 500px;
+    padding-left: 12px;
+}
+
+.navbar {
+    position: absolute;
+    top: 60px;
+    align-items: center;
+    opacity: 0.8;
+    margin-bottom: 350px; 
+    width: 90%;
+    margin-right: 75px;
+    margin-left: 75px;
+}
+.cardSection .container{
+    margin-top: 25px;
+    margin-right: 30px;
+}
+.collectionCards{
+    margin-top: 50px;
+}
+.collectionCards .container p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:larger;
+}
+.collectionCards .container .card .card-body h5{
+    font-family:Ballentine;
+    color: rgb(70, 61, 188);
+}
+.collectionCards .container .card .card-body p{
+    font-size:medium;
+}
+.badgeSection{
+    margin-top: 70px;
+}
+.badgeSection .container .card{
+    margin-left: 30px;
+    box-shadow: 5px 7px;
+}
+.badgeSection .container .card .card-body span{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+.badgeSection .container .card .card-body i{
+    margin-right: 2px;
+}
+.contactSection .container{
+    position: relative;
+    background-color: rgb(244, 175, 187);
+    margin-top: 55px;
+    margin-left: 85px;
+    height: 550px;
+}
+.contactSection .container .inputimg2{
+    position: absolute;
+    height: 450px;
+    width: 550px;
+    padding-left: 70px;
+    bottom: 50px;
+    border-radius: 15px;
+}
+.contactSection .container .contact h2{
+    font-weight: bolder;
+    font-size: 45px;
+    padding-left: 680px;
+    padding-top: 115px;
+}
+.contactSection .container .contact p{
+    font-size: larger;
+    padding-left: 680px;
+    padding-top: 10px;
+}
+.contactSection .container .contact span{
+    font-size:large;
+    padding-left: 680px;
+}
+.contactSection .container .contact .inputfield{
+    border-radius: 10px;
+    height: 60px;
+    margin-left: 680px;
+    padding-left: 10px;
+}
+.contactSection .container .contact .inputImg{
+    margin-left: 30px;
+    padding-left: 45px;
+    padding-top: 200px;
+}
+.contactSection .container .contact img{
+    margin-left: 680px;
+    height: 55px;
+}
+.footerSection{
+    background-color:whitesmoke;
+    margin: 30px 45px;
+    padding-left: 90px;
+}
+.footerSection h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xxx-large;
+    padding-left: 45px;
+}
+.footerSection p{
+    font-size: smaller;
+}
+

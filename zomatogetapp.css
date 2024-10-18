@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f9fa; 
+}
+.header .navbar .container-fluid{
+    box-shadow: 1px 3px;
+    width: 92%;
+}
+.header .navbar .container-fluid .navbar-brand{
+    font-size: xx-large;
+    font-weight: 1500;
+    margin-left: 500px;
+}
+.header .navbar .container-fluid .navbar-nav a{
+    padding-left: 100px;
+    margin-left: 20px;
+}
+.contactSection .container{
+    position: relative;
+    background-color:#f8f9fa;
+    margin-top: 75px;
+    height: 550px;
+    width: 95%;
+}
+.contactSection .container .inputimg2{
+    position: absolute;
+    height: 450px;
+    width: 550px;
+    padding-left: 70px;
+    bottom: 50px;
+    border-radius: 15px;
+}
+.contactSection .container .contact h2{
+    font-weight: bolder;
+    font-size: 45px;
+    padding-left: 680px;
+    padding-top: 115px;
+}
+.contactSection .container .contact p{
+    font-size: larger;
+    padding-left: 680px;
+    padding-top: 10px;
+}
+.contactSection .container .contact span{
+    font-size:large;
+    padding-left: 680px;
+}
+.contactSection .container .contact .inputfield{
+    border-radius: 10px;
+    height: 60px;
+    margin-left: 680px;
+    padding-left: 10px;
+}
+.contactSection .container .contact .inputImg{
+    margin-left: 30px;
+    padding-left: 45px;
+    padding-top: 200px;
+}
+.contactSection .container .contact img{
+    margin-left: 680px;
+    height: 55px;
+}
+.footerSection{
+    background-color:whitesmoke;
+    margin: 30px 45px;
+    padding-left: 90px;
+}
+.footerSection h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xxx-large;
+    padding-left: 45px;
+}
+.footerSection p{
+    font-size: smaller;
+}
